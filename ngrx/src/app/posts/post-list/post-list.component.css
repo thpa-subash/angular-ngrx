@@ -1,0 +1,13 @@
+.card{
+    background-color: white;
+    padding:10px;
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin:10px;
+}
+.card a{
+    float:right;
+ color:red;
+ cursor: pointer;   
+}

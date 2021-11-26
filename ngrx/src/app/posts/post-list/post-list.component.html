@@ -1,0 +1,5 @@
+<div class="card"  *ngFor='let data of data$|async'>
+    <p>{{data.title}} </p>
+
+    <a [routerLink]="['/posts', data.id]">Readmore ...</a>
+</div>

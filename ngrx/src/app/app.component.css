@@ -1,0 +1,55 @@
+.header{
+    width:100%;
+    background-color: blue;
+}
+nav {
+    display: flex;
+    padding:5px;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:80px;   
+    color:white;
+}
+nav .nav-menu{
+    width:70%;
+
+}
+nav ul {
+    float:right;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul li{
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+    font-weight: 600;
+
+    list-style-type:none;
+    padding:10px;
+    color:white;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+.main{
+    background-color: #dbd9d95e;
+    padding:20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    background-color: blue;
+    color:white;
+}

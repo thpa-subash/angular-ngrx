@@ -1,0 +1,24 @@
+<div class="header">
+  
+  <nav>
+    <div class="logo"><h2>My App</h2></div>
+    <div class="nav-menu">
+      <ul>
+        <li><a [routerLink]="'/'">Home</a></li>
+
+        <li><a [routerLink]="'/posts'">Posts</a></li>
+        <li><a [routerLink]="'/counter'">Counter</a></li>
+        <li>Users</li>
+        <li>Photos</li>
+        <li>Albums</li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="main">
+  <router-outlet></router-outlet>
+
+</div>
+<div class="footer">
+  <p>My App @2021</p>
+</div>

@@ -1,0 +1,14 @@
+<h4>--Interpolation--</h4>
+<p>{{interploation}} (interploation is used to show the string in template from ts file)</p>
+<input type="text" value="{{value}}">
+<br><br>
+
+<h4>--Property Binding--</h4>
+<input type="text" [value]="value">
+<br><br>
+<h4>--Event Binding--</h4>
+<button (click)="onClick($event)">Click Me</button>
+<br><br>
+<h4>--TwoWay Data Binding [(ngModel)] it is the conbination of property binding and event binding--</h4>
+<input type="text" [(ngModel)]="value"/>
+<p>{{value}}</p>
